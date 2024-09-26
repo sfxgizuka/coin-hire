@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    padding: 20px;
+    /* border-radius: 8px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    /* transition: transform 0.2s ease-in-out; */
+}
+/* body {
+    background: linear-gradient(70deg, #26C2B9 60%, #288BE7 100%, #4A77FF 60%);
+} */
+
+
+
+
+
+/* .card:hover {
+    transform: scale(1.02);
+} */
+.gradient{
+    background: linear-gradient(70deg, #26C2B9 60%, #288BE7 100%, #4A77FF 100%);
+
+}
+
+/* Add this to your CSS file */
+
+/* Add this to your CSS file */
+
+@media (max-width: 640px) { /* For small screens */
+    .scrolling-card-container {
+      display: none; /* Hide the scrolling cards */
+    }
+  }
+  
+  
